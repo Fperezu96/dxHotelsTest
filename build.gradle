@@ -1,0 +1,44 @@
+group 'co.com.certificacion.automationpractice'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding="UTF-8"
+
+repositories {
+    mavenCentral()
+     mavenLocal()
+    jcenter()
+}
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+
+        dependencies {
+                classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.66")
+        }
+    }
+}
+dependencies {
+    compile 'net.serenity-bdd:serenity-core:2.0.66'
+    compile 'net.serenity-bdd:serenity-junit:2.0.66'
+    compile 'net.serenity-bdd:serenity-screenplay:2.0.66'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:2.0.66'
+    compile 'org.slf4j:slf4j-simple:1.7.25'
+    testCompile 'junit:junit:4.12'
+    testCompile 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    testCompile 'org.assertj:assertj-core:3.11.1'
+}
+
+gradle.startParameter.continueOnFailure = true
+
+

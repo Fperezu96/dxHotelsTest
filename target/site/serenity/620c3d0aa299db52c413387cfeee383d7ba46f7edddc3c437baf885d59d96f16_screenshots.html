@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="19d0691b26c01613bcfc7f387d741549ce82639e8743e8b71d4db42d8cb1afca.html">Book A Hotel In The Store</a></span>
+                > <span class="truncate-60"><a
+                    href="620c3d0aa299db52c413387cfeee383d7ba46f7edddc3c437baf885d59d96f16.html">Book the cheapest hotel online </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-02-2020 14:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Book A Hotel In The Store </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                i as user of the booking site<br />
+want to travel to a specific place<br />
+then i will book a hotel room
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="48b7c75f506dab46ad5b9458c83c8f00552f7b1688fb83ee9a736c7df05a2990.html">Bookthecheapesthotel
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Book the cheapest hotel online
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user opens the booking site<br>When the user is planning to travel to &lt;place&gt; since &lt;checkIn&gt; to &lt;checkOut&gt;<br>Then should see the total &lt;price&gt; for reservation</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Example: {place=Honolulu, checkIn=02/28/2020, checkOut=02/29/2020, price=111}" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Given the user opens the booking site" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe opens the https://js.devexpress.com/Demos/DXHotels/#home" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Given the user opens the booking site (completed)" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" When the user is planning to travel to Honolulu since 02/28/2020 to 02/29/2020" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe hotel search" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe clicks on Location" width="1920"/>
+                <img src="dc5d9642b69a0d94d614be76d39dd45dba68dd7e65493a9b7a66165dd0e10bc5.png" title=" Felipe clicks on Location (completed)" width="1920"/>
+                <img src="dc5d9642b69a0d94d614be76d39dd45dba68dd7e65493a9b7a66165dd0e10bc5.png" title=" Felipe clicks on Select Location" width="1920"/>
+                <img src="c0ecceec982383fb34114eea577d8de03a78c082f7c3724116dfd39960428e36.png" title=" Felipe clicks on Select Location (completed)" width="1920"/>
+                <img src="c0ecceec982383fb34114eea577d8de03a78c082f7c3724116dfd39960428e36.png" title=" Felipe enters '02/28/2020' then hits [ENTER] into Check In" width="1920"/>
+                <img src="84d88c51807d3a645e24a0992c1d52dc245c34d9d52c95e1f0c1720dedec3b91.png" title=" Felipe enters '02/28/2020' then hits [ENTER] into Check In (completed)" width="1920"/>
+                <img src="84d88c51807d3a645e24a0992c1d52dc245c34d9d52c95e1f0c1720dedec3b91.png" title=" Felipe enters '02/29/2020' into Check In" width="1920"/>
+                <img src="890ff3fa9301b7f8b8e2c33b9e5c812d28b106893e095fe83d54613e3081f4d3.png" title=" Felipe enters '02/29/2020' into Check In (completed)" width="1920"/>
+                <img src="890ff3fa9301b7f8b8e2c33b9e5c812d28b106893e095fe83d54613e3081f4d3.png" title=" Felipe clicks on Rooms" width="1920"/>
+                <img src="5c0189c0a5c46845b521ae08d75a2e53ad1a2b3d50421fa3efc5b930129496ff.png" title=" Felipe clicks on Rooms (completed)" width="1920"/>
+                <img src="5c0189c0a5c46845b521ae08d75a2e53ad1a2b3d50421fa3efc5b930129496ff.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="349333c2636b32b9dc299b99fea248915187c85ec6b3f1c3707c72c7b24dbd13.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="349333c2636b32b9dc299b99fea248915187c85ec6b3f1c3707c72c7b24dbd13.png" title=" Felipe clicks on Adults" width="1920"/>
+                <img src="a14ea0a031844b86e7b6557dce152a44d52fdec96fcd60a1c157685f74e1485b.png" title=" Felipe clicks on Adults (completed)" width="1920"/>
+                <img src="a14ea0a031844b86e7b6557dce152a44d52fdec96fcd60a1c157685f74e1485b.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="9db4484da663fe3eaf70fe6afb95edeee7e8b21986b01bc51e996389a9d6fd73.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="9db4484da663fe3eaf70fe6afb95edeee7e8b21986b01bc51e996389a9d6fd73.png" title=" Felipe clicks on Children" width="1920"/>
+                <img src="e9055e030b4c3da8c9fa03afa1d254eaa64bad06bc1d7493404bc56e96879be4.png" title=" Felipe clicks on Children (completed)" width="1920"/>
+                <img src="e9055e030b4c3da8c9fa03afa1d254eaa64bad06bc1d7493404bc56e96879be4.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="1874cc3aebb2723d05f5e12044a805f145a609dcddaad12b1f8b6e5fb6f0cd1a.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="1874cc3aebb2723d05f5e12044a805f145a609dcddaad12b1f8b6e5fb6f0cd1a.png" title=" Felipe clicks on Search" width="1920"/>
+                <img src="ed7decb286a94510ba28e48700b2a8534f54b87c9568750c0217fc3718cf065c.png" title=" Felipe clicks on Search (completed)" width="1920"/>
+                <img src="ed7decb286a94510ba28e48700b2a8534f54b87c9568750c0217fc3718cf065c.png" title=" Felipe hotel search (completed)" width="1920"/>
+                <img src="ed7decb286a94510ba28e48700b2a8534f54b87c9568750c0217fc3718cf065c.png" title=" Felipe select price" width="1920"/>
+                <img src="3e9fe9f725c2fde4fb9260b99fb8e9b76a7bc166f082ffe1bd020b6731602a8f.png" title=" Felipe clicks on Min Price" width="1920"/>
+                <img src="267a55df1fde829f524729ad03bb6308b1878d5ad0bdf6557bc431c430de9863.png" title=" Felipe clicks on Min Price (completed)" width="1920"/>
+                <img src="f82bce679703adc70d9f66ca195d77379da9650221dd4ef5eca95e0e34566bfc.png" title=" When the user is planning to travel to Honolulu since 02/28/2020 to 02/29/2020" width="1920"/>
+                <img src="f82bce679703adc70d9f66ca195d77379da9650221dd4ef5eca95e0e34566bfc.png" title=" Felipe select price (completed)" width="1920"/>
+                <img src="f82bce679703adc70d9f66ca195d77379da9650221dd4ef5eca95e0e34566bfc.png" title=" Then should see the total 111 for reservation" width="1920"/>
+                <img src="f82bce679703adc70d9f66ca195d77379da9650221dd4ef5eca95e0e34566bfc.png" title=" Example: {place=Honolulu, checkIn=02/28/2020, checkOut=02/29/2020, price=111} (completed)" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Example: {place=Las Vegas, checkIn=02/25/2020, checkOut=02/28/2020, price=270}" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Given the user opens the booking site" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe opens the https://js.devexpress.com/Demos/DXHotels/#home" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" When the user is planning to travel to Las Vegas since 02/25/2020 to 02/28/2020" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe hotel search" width="1920"/>
+                <img src="e97ec49c27c0ded57e192ca9a1312e45c4385bb7fe4b02ae894dc4a32c3891f1.png" title=" Felipe clicks on Location" width="1920"/>
+                <img src="dc5d9642b69a0d94d614be76d39dd45dba68dd7e65493a9b7a66165dd0e10bc5.png" title=" Felipe clicks on Location (completed)" width="1920"/>
+                <img src="dc5d9642b69a0d94d614be76d39dd45dba68dd7e65493a9b7a66165dd0e10bc5.png" title=" Felipe clicks on Select Location" width="1920"/>
+                <img src="82c7a256f9d34f8809f8931e417545dcdd82bdea6f8f02a72d81206932775303.png" title=" Felipe clicks on Select Location (completed)" width="1920"/>
+                <img src="82c7a256f9d34f8809f8931e417545dcdd82bdea6f8f02a72d81206932775303.png" title=" Felipe enters '02/25/2020' then hits [ENTER] into Check In" width="1920"/>
+                <img src="a6c7c422cbd679f9d583851197073ae0f9c2fb4e6c444f66d96e6d8b9c039868.png" title=" Felipe enters '02/25/2020' then hits [ENTER] into Check In (completed)" width="1920"/>
+                <img src="a6c7c422cbd679f9d583851197073ae0f9c2fb4e6c444f66d96e6d8b9c039868.png" title=" Felipe enters '02/28/2020' into Check In" width="1920"/>
+                <img src="5ac663233e1d29e3d052233902645b3b3bd877e491c2e9b6456881fcc91edff5.png" title=" Felipe enters '02/28/2020' into Check In (completed)" width="1920"/>
+                <img src="5ac663233e1d29e3d052233902645b3b3bd877e491c2e9b6456881fcc91edff5.png" title=" Felipe clicks on Rooms" width="1920"/>
+                <img src="ebbec2bf4460fb9c7cbeea9260c8c87259b10921df7047fce46971aba3761ff2.png" title=" Felipe clicks on Rooms (completed)" width="1920"/>
+                <img src="ebbec2bf4460fb9c7cbeea9260c8c87259b10921df7047fce46971aba3761ff2.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="8634d1ee15523f9a78ec9244244e7e32037d77d132454b1c056d286e9905a3f4.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="8634d1ee15523f9a78ec9244244e7e32037d77d132454b1c056d286e9905a3f4.png" title=" Felipe clicks on Adults" width="1920"/>
+                <img src="88dd1af8f8fefb8fc64d337f52bfd09e5c6cb0677833e1e13331a2573651ea62.png" title=" Felipe clicks on Adults (completed)" width="1920"/>
+                <img src="88dd1af8f8fefb8fc64d337f52bfd09e5c6cb0677833e1e13331a2573651ea62.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="26ea051c76878e3544501b754b7d832a67fd7e6b818456f180c798288e90866d.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="26ea051c76878e3544501b754b7d832a67fd7e6b818456f180c798288e90866d.png" title=" Felipe clicks on Children" width="1920"/>
+                <img src="1af3ccdc734afc928eb2831318ce2f6c9c47a7ed9687ea75a41391364075851b.png" title=" Felipe clicks on Children (completed)" width="1920"/>
+                <img src="1af3ccdc734afc928eb2831318ce2f6c9c47a7ed9687ea75a41391364075851b.png" title=" Felipe clicks on Select How Many" width="1920"/>
+                <img src="f102440dafa371e016e7e1ca70448a58b4b5241b484b5f2f4643e216d7c70efc.png" title=" Felipe clicks on Select How Many (completed)" width="1920"/>
+                <img src="f102440dafa371e016e7e1ca70448a58b4b5241b484b5f2f4643e216d7c70efc.png" title=" Felipe clicks on Search" width="1920"/>
+                <img src="4cd2b46081eddb1495060bc4581f3456b8c79319afc7bac99202415f57e58f7f.png" title=" Felipe clicks on Search (completed)" width="1920"/>
+                <img src="4cd2b46081eddb1495060bc4581f3456b8c79319afc7bac99202415f57e58f7f.png" title=" Felipe hotel search (completed)" width="1920"/>
+                <img src="4cd2b46081eddb1495060bc4581f3456b8c79319afc7bac99202415f57e58f7f.png" title=" Felipe select price" width="1920"/>
+                <img src="17f86f994c54b97585331c5fcd3f8c78d7c47dec5aaef6334fdcd4b67f9f4b94.png" title=" Felipe clicks on Min Price" width="1920"/>
+                <img src="68cedd59a843be6cf53f51c575946f314b0c58e12bdbd179afc7aba335164ca6.png" title=" Felipe clicks on Min Price (completed)" width="1920"/>
+                <img src="563d5d52871d2386dac6224ab703244dd6078518c2141b644cc77c5c2e3c7566.png" title=" When the user is planning to travel to Las Vegas since 02/25/2020 to 02/28/2020" width="1920"/>
+                <img src="563d5d52871d2386dac6224ab703244dd6078518c2141b644cc77c5c2e3c7566.png" title=" Felipe select price (completed)" width="1920"/>
+                <img src="563d5d52871d2386dac6224ab703244dd6078518c2141b644cc77c5c2e3c7566.png" title=" Example: {place=Las Vegas, checkIn=02/25/2020, checkOut=02/28/2020, price=270}" width="1920"/>
+                <img src="563d5d52871d2386dac6224ab703244dd6078518c2141b644cc77c5c2e3c7566.png" title=" Then should see the total 270 for reservation: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.66</span>
+</div>
+</body>
+</html>
