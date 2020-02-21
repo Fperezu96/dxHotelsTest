@@ -8,4 +8,4 @@ Automatización de la página DX Hotels
 - Serenity BDD
 
 ## Ejecutar
-Para ejecutar el proyecto ejecutar el comando "gradle clean test aggregate"
+Utilizar el comando "gradle clean test aggregate"
